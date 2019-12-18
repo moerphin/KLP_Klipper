@@ -1,7 +1,7 @@
 # Klipper delta calibration:
 
 ## Basic with probe:
-=================
+
 V2 probe offset: 16.8 (Reference: https://github.com/MarlinFirmware/Marlin/tree/2.0.x/config/examples/delta/Anycubic/Kossel)
 
 Add to the printer.cfg. After this, you can do basic delta calibration with the original probe.
@@ -22,7 +22,7 @@ minimum_z_position: -5
 -------------------------------------------------------------------------------------------------------------------------------
 
 ## Enhanced:
-=========
+
 (Reference: https://github.com/KevinOConnor/klipper/blob/master/docs/Delta_Calibrate.md)
 Print delta_calibrate.stl (low speed, eg.: 40), and measure it CCW, started from A:
 
