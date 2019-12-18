@@ -28,13 +28,21 @@ To "printer" section (just for manual calibration, aka "paper test"):
 Print delta_calibrate.stl (low speed, eg.: 40), and measure it CCW, started from A:
 
 Center and outer pillars distance
+
 `DELTA_ANALYZE CENTER_DISTS=`
+
 Outer pillars distance
+
 `DELTA_ANALYZE OUTER_DISTS=`
+
 Center pillar widths
+
 `DELTA_ANALYZE CENTER_PILLAR_WIDTHS`
+
 Outer pillar widths
-`DELTA_ANALYZE OUTER_PILLAR_WIDTHS=`
-`DELTA_ANALYZE SCALE=1.0`
-`DELTA_ANALYZE CALIBRATE=extended`
-`SAVE_CONFIG`
+```
+DELTA_ANALYZE OUTER_PILLAR_WIDTHS=
+DELTA_ANALYZE SCALE=1.0
+DELTA_ANALYZE CALIBRATE=extended
+SAVE_CONFIG
+```
