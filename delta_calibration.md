@@ -16,6 +16,7 @@ radius: 115
 horizontal_move_z: 20
 ```
 To "printer" section (just for manual calibration, aka "paper test"):
+
 `minimum_z_position: -5`
 
 
